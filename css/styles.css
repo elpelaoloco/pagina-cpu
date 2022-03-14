@@ -15,7 +15,7 @@
     color: #4c3c7c;
 }
 #letras-nav:hover {
-    color: #1a0b43;
+    color: #65B0DD;
 }
 #contenedor{
     background: url(../media/pexels-pok-rie-1432675.jpg) no-repeat;
@@ -24,3 +24,11 @@
     height: 800px;
 
 }
+.texto {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
