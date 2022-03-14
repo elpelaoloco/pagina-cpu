@@ -11,18 +11,29 @@
 #ancho {
     justify-content: end;
 }
-#letras-nav {
-    color: #4c3c7c;
+.letras-nav {
+    color: #4c3c7c !important;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 0px !important;
+
 }
-#letras-nav:hover {
-    color: #65B0DD;
+.letras-nav:hover {
+    color: #65B0DD !important;
 }
 #contenedor{
     background: url(../media/pexels-pok-rie-1432675.jpg) no-repeat;
     background-size: cover; 
     width: 100%;
-    height: 100vh;
-
+    height: 90vh;
+}
+#contenedor2 {
+    background-color: #5e99e4;
+    width: 100%;
+    height: 500px;
+}
+#main {
+    margin-top: 6px;
 }
 .texto {
     display: flex;
