@@ -16,24 +16,14 @@
               </a>
             <ul class="navbar-nav d-flex pull-rigth me-0 " >
                 <li class="nav-item d-flex me-0">
-                <a class="nav-link  fs-4 letras-nav" aria-current="page" href="#">Proyecto</a>
+                <a class="nav-link  fs-4" id="letras-nav"aria-current="page" href="#">Proyecto</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link fs-4 letras-nav"  href="#">Galeria</a>
+                <a class="nav-link fs-4 " id= "letras-nav"  href="#">Galeria</a>
                 </li>
-                <div class="dropdown nav-item ">
-                  <a class="dropdown-toggle nav-item fs-4 letras-nav" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-                    Contacto
-                  </a>
-                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-                    <li><a class="dropdown-item" href="#">Instagram</a></li>
-                    <li><a class="dropdown-item" href="#">Facebook</a></li>
-                    <li><a class="dropdown-item" href="#">Email</a></li>
-                  </ul>
-                </div>
-               <!-- <li class="nav-item">
+                <li class="nav-item">
                 <a class="nav-link fs-4" id= "letras-nav" href="#">Contacto</a>
-                </li>-->
+                </li>
             </ul>
               </div>
             </div>
@@ -54,6 +44,34 @@
     </div> 
     <div id="contenedor2">
       galeria fotos de bomberos y cosas importantes
+    </div>
+    <div id="contenedor3">
+      <div class="form-container">
+        <form class="was-validated" id="form">
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Contacto</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" name= "nombre" placeholder="Nombre Completo" required></textarea>
+            <div class="invalid-feedback">Respuesta Obligatoria
+            </div>
+          </div>
+        
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Email</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" name= "nombre" placeholder="correo ejemplo@gmail.com " required></textarea>
+            <div class="invalid-feedback">Respuesta Obligatoria</div>
+          </div>
+        
+          <div class="mb-3">
+            <label for="validationTextarea" class="form-label">Mensaje</label>
+            <textarea class="form-control is-invalid" id="validationTextarea" name= "nombre" placeholder= "Escriba su mensaje" required></textarea>
+            <div class="invalid-feedback">Respuesta Obligatoria</div>
+          </div>
+        
+          <div class="mb-3">
+            <button class="btn btn-primary" type="submit" disabled>Submit form</button>
+          </div>
+        </form>
+      </div>
     </div>
 </body>
 <script src="js/bootstrap.bundle.min.js"></script>

@@ -1,3 +1,4 @@
+
 #primero {
     background-color: #2F265F !important;
 }
@@ -11,26 +12,41 @@
 #ancho {
     justify-content: end;
 }
-.letras-nav {
+#letras-nav {
     color: #4c3c7c !important;
     border: none;
     text-decoration: none;
-    margin-bottom: 0px !important;
 
 }
-.letras-nav:hover {
+#letras-nav:hover {
     color: #65B0DD !important;
 }
 #contenedor{
     background: url(../media/pexels-pok-rie-1432675.jpg) no-repeat;
     background-size: cover; 
     width: 100%;
+    min-height: 500px; 
     height: 90vh;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.form-container {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 #contenedor2 {
     background-color: #5e99e4;
     width: 100%;
-    height: 500px;
+    height: 700px;
+}
+#contenedor3 {
+    background-color: white;
+    height: 900px;
 }
 #main {
     margin-top: 6px;
@@ -112,4 +128,7 @@
 }
 #main {
     width: 70%;
+}
+*, ::after, ::before {
+    box-sizing: content-box !important;
 }
